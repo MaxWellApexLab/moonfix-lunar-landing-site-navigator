@@ -1,0 +1,21 @@
+{
+  "label": "NASA Lunar Landing Site Navigator \u2014 Moonfix",
+  "science": "Real participant-supplied JPL Horizons DE441 hourly geometry and LOLA 80-m terrain-derived skyline samples",
+  "start": "2026-Nov-14 00:00 TDB",
+  "end": "2026-Nov-16 23:00 TDB",
+  "timeScale": "TDB (Barycentric Dynamical Time) \u2014 not local NYC clock time",
+  "sampling": "72 hourly observations/site; 71 between-hour intervals",
+  "limitations": [
+    "No time extrapolation outside 2026-Nov-14..16",
+    "A sampled visible hour is not guaranteed continuous visibility",
+    "Visibility requires both Sun and Earth above their local terrain skyline, plus a selected safety angle",
+    "80 m LOLA terrain cannot resolve small rocks or certify landing safety",
+    "No spacecraft power storage, link budget, sun tracking, or full lunar orbit/attitude model",
+    "The 71h linear-interpolated value is an assumed model proxy, not direct ephemeris or mission truth"
+  ],
+  "sourceSha256": {
+    "CSV": "51fc8ff449f9e115e92d9c73dec1eb4782f5fea0a50917ca721a50976452ba0e",
+    "LOLA_Terrain": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+    "Prior_terrain_validation": "811d49ae6c1db8aa7acd8a27aae8fe98c66a3cf58aed2663b23fb5319c7b9d29"
+  }
+}

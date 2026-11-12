@@ -1,0 +1,1114 @@
+{
+  "description": "JPL/LOLA 72 sampled hourly Sun/Earth joint skyline-clearance interpolation model diagnostic",
+  "time_scale": "TDB: 71 gaps from 2026-Nov-14 00:00 through 2026-Nov-16 23:00",
+  "limits": "PCHIP and linear within-hour proxies; cannot establish true continuous visibility, actual engineering operation, or orbital/terrain uncertainty bounds.",
+  "margins_deg": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "sites": {
+    "South_82E40": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.001896,
+        "abs_error_max_deg": 0.008919
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 5.9e-05,
+        "abs_error_max_deg": 6.5e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_83E60": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.003874,
+        "abs_error_max_deg": 0.006289
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 6.1e-05,
+        "abs_error_max_deg": 6.6e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 37.6642528,
+            "longest_run_hours": 37.6642528,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 33.3357472,
+                "end_h": 71.0,
+                "duration_h": 37.6642528,
+                "start_tdb": "2026-Nov-15 09:20:08.689 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 37.6635172,
+            "longest_run_hours": 37.6635172,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 33.3364828,
+                "end_h": 71.0,
+                "duration_h": 37.6635172,
+                "start_tdb": "2026-Nov-15 09:20:11.338 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.0007356,
+          "sampled_joint_good": 38
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 26.9537404,
+            "longest_run_hours": 26.9537404,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 44.0462596,
+                "end_h": 71.0,
+                "duration_h": 26.9537404,
+                "start_tdb": "2026-Nov-15 20:02:46.534 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 26.9535971,
+            "longest_run_hours": 26.9535971,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 44.0464029,
+                "end_h": 71.0,
+                "duration_h": 26.9535971,
+                "start_tdb": "2026-Nov-15 20:02:47.050 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.0001433,
+          "sampled_joint_good": 27
+        },
+        "1": {
+          "linear": {
+            "total_hours": 16.7186434,
+            "longest_run_hours": 16.7186434,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 54.2813566,
+                "end_h": 71.0,
+                "duration_h": 16.7186434,
+                "start_tdb": "2026-Nov-16 06:16:52.883 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 16.718263,
+            "longest_run_hours": 16.718263,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 54.281737,
+                "end_h": 71.0,
+                "duration_h": 16.718263,
+                "start_tdb": "2026-Nov-16 06:16:54.253 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.0003804,
+          "sampled_joint_good": 17
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_84E0": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.003781,
+        "abs_error_max_deg": 0.010121
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 5.7e-05,
+        "abs_error_max_deg": 6.2e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_84E40": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.002246,
+        "abs_error_max_deg": 0.011496
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 7e-06,
+        "abs_error_max_deg": 7e-06
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 67.6191451,
+            "longest_run_hours": 67.6191451,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 3.3808549,
+                "end_h": 71.0,
+                "duration_h": 67.6191451,
+                "start_tdb": "2026-Nov-14 03:22:51.077 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 67.6182308,
+            "longest_run_hours": 67.6182308,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 3.3817692,
+                "end_h": 71.0,
+                "duration_h": 67.6182308,
+                "start_tdb": "2026-Nov-14 03:22:54.369 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.0009143,
+          "sampled_joint_good": 68
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 55.3737659,
+            "longest_run_hours": 55.3737659,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 15.6262341,
+                "end_h": 71.0,
+                "duration_h": 55.3737659,
+                "start_tdb": "2026-Nov-14 15:37:34.442 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 55.3730139,
+            "longest_run_hours": 55.3730139,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 15.6269861,
+                "end_h": 71.0,
+                "duration_h": 55.3730139,
+                "start_tdb": "2026-Nov-14 15:37:37.149 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.000752,
+          "sampled_joint_good": 56
+        },
+        "1": {
+          "linear": {
+            "total_hours": 44.0284141,
+            "longest_run_hours": 44.0284141,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 26.9715859,
+                "end_h": 71.0,
+                "duration_h": 44.0284141,
+                "start_tdb": "2026-Nov-15 02:58:17.709 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 44.0283386,
+            "longest_run_hours": 44.0283386,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 26.9716614,
+                "end_h": 71.0,
+                "duration_h": 44.0283386,
+                "start_tdb": "2026-Nov-15 02:58:17.981 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -7.55e-05,
+          "sampled_joint_good": 45
+        },
+        "2": {
+          "linear": {
+            "total_hours": 23.1473705,
+            "longest_run_hours": 23.1473705,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 47.8526295,
+                "end_h": 71.0,
+                "duration_h": 23.1473705,
+                "start_tdb": "2026-Nov-15 23:51:09.466 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 23.1471413,
+            "longest_run_hours": 23.1471413,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 47.8528587,
+                "end_h": 71.0,
+                "duration_h": 23.1471413,
+                "start_tdb": "2026-Nov-15 23:51:10.291 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.0002292,
+          "sampled_joint_good": 24
+        },
+        "3": {
+          "linear": {
+            "total_hours": 3.8196321,
+            "longest_run_hours": 3.8196321,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 67.1803679,
+                "end_h": 71.0,
+                "duration_h": 3.8196321,
+                "start_tdb": "2026-Nov-16 19:10:49.324 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip": {
+            "total_hours": 3.8194401,
+            "longest_run_hours": 3.8194401,
+            "number_of_runs": 1,
+            "runs": [
+              {
+                "start_h": 67.1805599,
+                "end_h": 71.0,
+                "duration_h": 3.8194401,
+                "start_tdb": "2026-Nov-16 19:10:50.015 TDB",
+                "end_tdb": "2026-Nov-16 23:00:00.000 TDB",
+                "left_boundary_truncated": false,
+                "right_boundary_truncated": true
+              }
+            ]
+          },
+          "pchip_minus_linear_hours": -0.000192,
+          "sampled_joint_good": 4
+        }
+      }
+    },
+    "South_84E90": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.004339,
+        "abs_error_max_deg": 0.005881
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 5.9e-05,
+        "abs_error_max_deg": 6.4e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_85E40": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.000746,
+        "abs_error_max_deg": 0.003575
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 6.1e-05,
+        "abs_error_max_deg": 7.5e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_85W30": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.004158,
+        "abs_error_max_deg": 0.021169
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 5.9e-05,
+        "abs_error_max_deg": 6.3e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_86E0": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.008933,
+        "abs_error_max_deg": 0.041996
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 6.9e-05,
+        "abs_error_max_deg": 0.000103
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_87E90": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.002023,
+        "abs_error_max_deg": 0.009275
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 5.9e-05,
+        "abs_error_max_deg": 7e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    },
+    "South_88E180": {
+      "sun_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 0.002322,
+        "abs_error_max_deg": 0.007974
+      },
+      "earth_alternate_hour_pchip_cv": {
+        "withheld_hour_samples": 70,
+        "abs_error_p95_deg": 7.4e-05,
+        "abs_error_max_deg": 9.1e-05
+      },
+      "margins": {
+        "0": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "0.5": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "1": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "2": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        },
+        "3": {
+          "linear": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip": {
+            "total_hours": 0,
+            "longest_run_hours": 0.0,
+            "number_of_runs": 0,
+            "runs": []
+          },
+          "pchip_minus_linear_hours": 0,
+          "sampled_joint_good": 0
+        }
+      }
+    }
+  }
+}

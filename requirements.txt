@@ -1,0 +1,10 @@
+# App itself: no install required; open index.html in a browser.
+# Rebuild original NASA LOLA hillshade and source-verified 720-row dataset:
+numpy
+scipy
+Pillow
+rasterio
+pyproj
+# Run browser and math tests:
+pytest
+playwright

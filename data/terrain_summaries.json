@@ -1,0 +1,660 @@
+{
+  "data_source": "User-provided real JPL DE441 Moon-fixed output + NASA LOLA DEM",
+  "epoch_time_scale": "TDB, 2026-11-14 through 2026-11-16",
+  "interval": "72 one-hour samples, NOT continuous 72-hour guaranteed availability",
+  "site_count": 10,
+  "pareto_front_1deg_visibility_vs_80m_slope": [
+    "South_84E40",
+    "South_84E90",
+    "South_83E60"
+  ],
+  "sites": [
+    {
+      "name": "South_84E40",
+      "lat": -84.0,
+      "lon_east": 40.0,
+      "terrain": {
+        "center_elevation_m": 5349.38134765625,
+        "slope_p50_deg": 11.870119865943142,
+        "slope_p95_deg": 16.440489906556195,
+        "elevation_p95_minus_p05_m": 388.9177734375007,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 68,
+          "joint_fraction": 0.9444444444444444,
+          "adjacent_qualified_sample_pairs": 67,
+          "longest_sample_run": 68,
+          "min_sun_clearance_deg": 0.19174999999999986,
+          "min_earth_clearance_deg": -0.13023
+        },
+        "0.5": {
+          "joint_samples": 56,
+          "joint_fraction": 0.7777777777777778,
+          "adjacent_qualified_sample_pairs": 55,
+          "longest_sample_run": 56,
+          "min_sun_clearance_deg": 0.19174999999999986,
+          "min_earth_clearance_deg": -0.13023
+        },
+        "1.0": {
+          "joint_samples": 45,
+          "joint_fraction": 0.625,
+          "adjacent_qualified_sample_pairs": 44,
+          "longest_sample_run": 45,
+          "min_sun_clearance_deg": 0.19174999999999986,
+          "min_earth_clearance_deg": -0.13023
+        },
+        "2.0": {
+          "joint_samples": 24,
+          "joint_fraction": 0.3333333333333333,
+          "adjacent_qualified_sample_pairs": 23,
+          "longest_sample_run": 24,
+          "min_sun_clearance_deg": 0.19174999999999986,
+          "min_earth_clearance_deg": -0.13023
+        },
+        "3.0": {
+          "joint_samples": 4,
+          "joint_fraction": 0.05555555555555555,
+          "adjacent_qualified_sample_pairs": 3,
+          "longest_sample_run": 4,
+          "min_sun_clearance_deg": 0.19174999999999986,
+          "min_earth_clearance_deg": -0.13023
+        }
+      },
+      "robust_1deg_joint_samples": 45,
+      "nominal_joint_samples": 68,
+      "negative_slope_p95": -16.440489906556195
+    },
+    {
+      "name": "South_83E60",
+      "lat": -83.0,
+      "lon_east": 60.0,
+      "terrain": {
+        "center_elevation_m": 447.58270263671875,
+        "slope_p50_deg": 4.471933035223442,
+        "slope_p95_deg": 8.458646460251275,
+        "elevation_p95_minus_p05_m": 91.63237304687499,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 38,
+          "joint_fraction": 0.5277777777777778,
+          "adjacent_qualified_sample_pairs": 37,
+          "longest_sample_run": 38,
+          "min_sun_clearance_deg": 2.8556100000000004,
+          "min_earth_clearance_deg": -1.3725
+        },
+        "0.5": {
+          "joint_samples": 27,
+          "joint_fraction": 0.375,
+          "adjacent_qualified_sample_pairs": 26,
+          "longest_sample_run": 27,
+          "min_sun_clearance_deg": 2.8556100000000004,
+          "min_earth_clearance_deg": -1.3725
+        },
+        "1.0": {
+          "joint_samples": 17,
+          "joint_fraction": 0.2361111111111111,
+          "adjacent_qualified_sample_pairs": 16,
+          "longest_sample_run": 17,
+          "min_sun_clearance_deg": 2.8556100000000004,
+          "min_earth_clearance_deg": -1.3725
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.8556100000000004,
+          "min_earth_clearance_deg": -1.3725
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.8556100000000004,
+          "min_earth_clearance_deg": -1.3725
+        }
+      },
+      "robust_1deg_joint_samples": 17,
+      "nominal_joint_samples": 38,
+      "negative_slope_p95": -8.458646460251275
+    },
+    {
+      "name": "South_84E90",
+      "lat": -84.0,
+      "lon_east": 90.0,
+      "terrain": {
+        "center_elevation_m": -3617.6904296875,
+        "slope_p50_deg": 2.2994233190967086,
+        "slope_p95_deg": 7.2918454075802295,
+        "elevation_p95_minus_p05_m": 33.53427734375009,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 0.4616100000000003,
+          "min_earth_clearance_deg": -6.54346
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 0.4616100000000003,
+          "min_earth_clearance_deg": -6.54346
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 0.4616100000000003,
+          "min_earth_clearance_deg": -6.54346
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 0.4616100000000003,
+          "min_earth_clearance_deg": -6.54346
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 0.4616100000000003,
+          "min_earth_clearance_deg": -6.54346
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -7.2918454075802295
+    },
+    {
+      "name": "South_84E0",
+      "lat": -84.0,
+      "lon_east": 0.0,
+      "terrain": {
+        "center_elevation_m": -1274.6602783203125,
+        "slope_p50_deg": 4.244428710460083,
+        "slope_p95_deg": 8.114702506469476,
+        "elevation_p95_minus_p05_m": 120.49404296874991,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -4.43526,
+          "min_earth_clearance_deg": -3.6172999999999997
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -4.43526,
+          "min_earth_clearance_deg": -3.6172999999999997
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -4.43526,
+          "min_earth_clearance_deg": -3.6172999999999997
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -4.43526,
+          "min_earth_clearance_deg": -3.6172999999999997
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -4.43526,
+          "min_earth_clearance_deg": -3.6172999999999997
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -8.114702506469476
+    },
+    {
+      "name": "South_85W30",
+      "lat": -85.0,
+      "lon_east": -30.0,
+      "terrain": {
+        "center_elevation_m": -1411.0472412109375,
+        "slope_p50_deg": 4.866929624028339,
+        "slope_p95_deg": 9.811303266211263,
+        "elevation_p95_minus_p05_m": 155.11127929687495,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -8.46214,
+          "min_earth_clearance_deg": -8.08317
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -8.46214,
+          "min_earth_clearance_deg": -8.08317
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -8.46214,
+          "min_earth_clearance_deg": -8.08317
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -8.46214,
+          "min_earth_clearance_deg": -8.08317
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -8.46214,
+          "min_earth_clearance_deg": -8.08317
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -9.811303266211263
+    },
+    {
+      "name": "South_82E40",
+      "lat": -82.0,
+      "lon_east": 40.0,
+      "terrain": {
+        "center_elevation_m": -2838.339111328125,
+        "slope_p50_deg": 8.77366927110185,
+        "slope_p95_deg": 11.41830716012957,
+        "elevation_p95_minus_p05_m": 290.1902832031251,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.00894,
+          "min_earth_clearance_deg": -7.003490000000001
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.00894,
+          "min_earth_clearance_deg": -7.003490000000001
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.00894,
+          "min_earth_clearance_deg": -7.003490000000001
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.00894,
+          "min_earth_clearance_deg": -7.003490000000001
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 2.00894,
+          "min_earth_clearance_deg": -7.003490000000001
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -11.41830716012957
+    },
+    {
+      "name": "South_86E0",
+      "lat": -86.0,
+      "lon_east": 0.0,
+      "terrain": {
+        "center_elevation_m": 4798.337890625,
+        "slope_p50_deg": 8.756736211064622,
+        "slope_p95_deg": 17.18158890694053,
+        "elevation_p95_minus_p05_m": 286.76425781250055,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -3.28519,
+          "min_earth_clearance_deg": -2.3028
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -3.28519,
+          "min_earth_clearance_deg": -2.3028
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -3.28519,
+          "min_earth_clearance_deg": -2.3028
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -3.28519,
+          "min_earth_clearance_deg": -2.3028
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -3.28519,
+          "min_earth_clearance_deg": -2.3028
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -17.18158890694053
+    },
+    {
+      "name": "South_87E90",
+      "lat": -87.0,
+      "lon_east": 90.0,
+      "terrain": {
+        "center_elevation_m": -2304.79296875,
+        "slope_p50_deg": 14.842917143126812,
+        "slope_p95_deg": 19.41441704827126,
+        "elevation_p95_minus_p05_m": 518.407763671875,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -14.01664,
+          "min_earth_clearance_deg": -9.2942
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -14.01664,
+          "min_earth_clearance_deg": -9.2942
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -14.01664,
+          "min_earth_clearance_deg": -9.2942
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -14.01664,
+          "min_earth_clearance_deg": -9.2942
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -14.01664,
+          "min_earth_clearance_deg": -9.2942
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -19.41441704827126
+    },
+    {
+      "name": "South_88E180",
+      "lat": -88.0,
+      "lon_east": 180.0,
+      "terrain": {
+        "center_elevation_m": -251.84738159179688,
+        "slope_p50_deg": 14.428030878280834,
+        "slope_p95_deg": 20.41910832757795,
+        "elevation_p95_minus_p05_m": 540.3964599609376,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -7.21582,
+          "min_earth_clearance_deg": -17.99079
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -7.21582,
+          "min_earth_clearance_deg": -17.99079
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -7.21582,
+          "min_earth_clearance_deg": -17.99079
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -7.21582,
+          "min_earth_clearance_deg": -17.99079
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": -7.21582,
+          "min_earth_clearance_deg": -17.99079
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -20.41910832757795
+    },
+    {
+      "name": "South_85E40",
+      "lat": -85.0,
+      "lon_east": 40.0,
+      "terrain": {
+        "center_elevation_m": 4892.64501953125,
+        "slope_p50_deg": 24.082972886511428,
+        "slope_p95_deg": 26.53659421115652,
+        "elevation_p95_minus_p05_m": 900.5177734375002,
+        "samples_shape": [
+          27,
+          27
+        ],
+        "dem_resolution_m": [
+          80.0,
+          80.0
+        ]
+      },
+      "visibility_by_margin_deg": {
+        "0.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 1.84308,
+          "min_earth_clearance_deg": -24.9539
+        },
+        "0.5": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 1.84308,
+          "min_earth_clearance_deg": -24.9539
+        },
+        "1.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 1.84308,
+          "min_earth_clearance_deg": -24.9539
+        },
+        "2.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 1.84308,
+          "min_earth_clearance_deg": -24.9539
+        },
+        "3.0": {
+          "joint_samples": 0,
+          "joint_fraction": 0.0,
+          "adjacent_qualified_sample_pairs": 0,
+          "longest_sample_run": 0,
+          "min_sun_clearance_deg": 1.84308,
+          "min_earth_clearance_deg": -24.9539
+        }
+      },
+      "robust_1deg_joint_samples": 0,
+      "nominal_joint_samples": 0,
+      "negative_slope_p95": -26.53659421115652
+    }
+  ],
+  "limits": [
+    "LOLA 80m cannot resolve boulders or small hazards",
+    "TDB samples are points, not confirmed continuous communication or thermal windows",
+    "Projection and coordinate frame inherited from existing 72h processed dataset",
+    "The 72h observation window cannot establish lunar-day or yearly performance",
+    "Strong dependence on DEM horizon raytracing and short 50km horizon limit"
+  ]
+}
